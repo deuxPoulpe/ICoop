@@ -1,6 +1,8 @@
-const btn = document.querySelector(".toggle_btn");
-const nav = document.querySelector(".nav");
-
-btn.onclick = function () {
-  nav.classList.toggle("nav_open");
-};
+function toggleMenu() {
+  const navbar = document.querySelector(".navbar");
+  const burger = document.querySelector(".burger");
+  burger.addEventListener("click", (e) => {
+    navbar.classList.toggle("show-nav");
+  });
+}
+toggleMenu();
