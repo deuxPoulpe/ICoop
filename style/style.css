@@ -26,10 +26,11 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background: url(/assets/images/back.png) center no-repeat fixed;
+  background: url(/assets/images/932271.jpg) ;
 }
 /********************************************** Naviguation **********************************************/
 
+/* rgb(0, 0, 0,0.7) */
 
 :root{
   --navbar-color: #FFF;
