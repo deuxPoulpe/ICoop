@@ -36,9 +36,9 @@ body {
 
 :root {
   --navbar-color: #fff;
-  --navbar-bg-color: rgb(0, 0, 0, 0.7);
+  --navbar-bg-color: rgb(15, 17, 15);
 }
-
+ 
 .navbar__link a:hover {
   opacity: 0.5;
 }
@@ -407,4 +407,9 @@ footer {
   .footer-medias h3 {
     padding-bottom: 5px;
   }
+}
+
+.copie{
+  font-size: 10px;
+  text-align: center;
 }
