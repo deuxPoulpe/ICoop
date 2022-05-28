@@ -135,7 +135,6 @@ body {
 .main-content {
   color: #f3f3f3;
   transition: 0.5s ;
-
 }
 .main-content h1 {
   font-family: Open Sans, sans-serif;
@@ -416,4 +415,87 @@ footer {
 .input button:hover{
   color: #50bddf;
   background-color: #222;
+}
+
+
+
+/* image slide */
+
+
+.slide-shwo-cont{
+  padding: 3vw 5vw 5vw;
+}
+
+.slideshow-container {
+  margin-top: 4vw;
+  overflow: hidden;
+  min-height: 60vmin;
+  cursor: grab;
+  position: relative;
+}
+
+.slideshow-container:active {
+  cursor: grabbing;
+}
+.slideshow {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  pointer-events: none;
+}
+.slide {
+  flex-shrink: 0;
+  height: 100%;
+  width: 80vmin;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.slide:not(:nth-child(1)){
+  margin-left: 30px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+.slide h2, .slide a {
+  text-shadow: 0 0 5px rgba(0,0,0,0.39);
+}
+.slide h2 {
+  position: absolute;
+  top: clamp(10px, 2vw, 20px);
+  left: clamp(10px, 2vw, 20px);
+  font-size: clamp(20px, 3vw, 40px);
+  font-weight: 300;
+}
+.slide a {
+  position: absolute;
+  bottom: clamp(10px, 2vw, 20px);
+  right: clamp(10px, 2vw, 20px);
+  font-size: clamp(16px, 3vw, 20px);
+  font-weight: 300;
+  color: #fff;
+  pointer-events: auto;
+}
+
+
+.s1 {
+  background-image: url("/assets/images/coop.png");
+}
+.s2 {
+  background-image: url("/assets/images/coop.png");
+}
+.s3 {
+  background-image: url("/assets/images/coop.png");
+}
+.s4 {
+  background-image: url("/assets/images/coop.png");
+}
+.s5 {
+  background-image: url("/assets/images/coop.png");
 }
