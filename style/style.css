@@ -13,7 +13,7 @@ body {
   background: #222;
   font-family: Raleway, Helvetica, sans-serif;
   position: relative;
-  background: url(/assets/images/932271.jpg);
+  background: url(/assets/images/back3.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -374,8 +374,8 @@ footer {
 
 .video{
   text-align: center;
-  height: 50%;
-  width: 70%;
+  height: 60%;
+  width: 80%;
   background-color: #1b1b1b80;
   border-radius: 10px;
   margin: auto;
