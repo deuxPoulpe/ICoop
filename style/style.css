@@ -17,12 +17,23 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+/* Burger nav */
+
+
+.burger{
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  height: 32px;
+  width: 32px;
+  color: #222;
+}
 
 /* New Stacking Context with Fixed */
 .side-nav {
   position: fixed;
   height: 100vh;
-  left: 0;
+  left: -200px;
   top: 0;
 }
 
@@ -33,29 +44,38 @@ body {
   width: 75px;
 }
 
-.three-dots-container {
+.nav-show{
+  left: 0px;
+}
+
+.logo-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60px;
 }
-.dot {
-  flex-shrink: 0;
-  margin: 10px 3px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #000;
+
+.chg-nav {
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  left: 0px;
+  top: 0;
+  padding: 20px 12px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
 }
+
 
 #image-nav{
   height: 50px;
   width: 50px;
   color: white;
 }
-.d1 {background: #4a7a4a;}
-.d2 {background: #6bb16b;}
-.d3 {background: #90ee90;}
+
 
 .nav-bloc {
   padding: 20px 0;
@@ -116,9 +136,10 @@ body {
    text-decoration: none;
 }
 
-
-.main-content {
+.main-left{
   padding-left: 75px;
+}
+.main-content {
   color: #f3f3f3;
 }
 .main-content h1 {
@@ -372,4 +393,31 @@ footer {
 
 .acc{
   text-align: center;
+}
+
+
+/* les interupteur */
+
+.input{
+  text-align: center;
+}
+
+.input button{
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px #3d3d3d4b;
+  margin-top: 64px;
+
+}
+
+.input button:hover{
+  color: #50bddf;
+  background-color: #222;
 }

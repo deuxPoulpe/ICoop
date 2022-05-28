@@ -1,6 +1,6 @@
 {
-    "name" : "ICoop",
-    "short_name" : "IC",
+    "name" : "iCoop",
+    "short_name" : "iCoop",
     "start_url" : "/index.html",
     "background_color" :"white",
     "theme_color" : "black",
@@ -49,11 +49,5 @@
           "sizes": "512x512"
         }
       ],
-      "prefer_related_applications" : "true",
-      "related_applications" :[ 
-        {
-            "platform":"play",
-            "id" : "com.google.samples.apps.iosched"
-        }
-      ]
+      "prefer_related_applications" : "false"
 }

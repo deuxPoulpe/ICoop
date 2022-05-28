@@ -46,3 +46,15 @@ async function afficherDate() {
   }
 }
 afficherDate();
+
+const burger = document.querySelector(".burger");
+burger.addEventListener("click", () => {
+  open_nav();
+});
+
+function open_nav() {
+  const nav = document.querySelector(".side-nav");
+  const main = document.querySelector(".main-content");
+  nav.classList.toggle("nav-show");
+  main.classList.toggle("main-left");
+}
