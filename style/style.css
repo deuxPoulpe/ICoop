@@ -35,6 +35,8 @@ body {
   height: 100vh;
   left: -200px;
   top: 0;
+  transition: 0.5s ;
+
 }
 
 /* To hide the sub-nav */
@@ -46,6 +48,8 @@ body {
 
 .nav-show{
   left: 0px;
+  transition: 0.5s ;
+
 }
 
 .logo-nav {
@@ -55,19 +59,6 @@ body {
   height: 60px;
 }
 
-.chg-nav {
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  position: fixed;
-  left: 0px;
-  top: 0;
-  padding: 20px 12px;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-
-}
 
 
 #image-nav{
@@ -138,9 +129,13 @@ body {
 
 .main-left{
   padding-left: 75px;
+  transition: 0.5s ;
+
 }
 .main-content {
   color: #f3f3f3;
+  transition: 0.5s ;
+
 }
 .main-content h1 {
   font-family: Open Sans, sans-serif;
@@ -189,6 +184,7 @@ body {
 @media screen and (max-width: 700px) {
   .logo-bar {
     display: block;
+    text-align: center;
   }
 }
 
