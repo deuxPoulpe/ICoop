@@ -473,16 +473,6 @@ footer {
   font-size: clamp(20px, 3vw, 40px);
   font-weight: 300;
 }
-.slide a {
-  position: absolute;
-  bottom: clamp(10px, 2vw, 20px);
-  right: clamp(10px, 2vw, 20px);
-  font-size: clamp(16px, 3vw, 20px);
-  font-weight: 300;
-  color: #fff;
-  pointer-events: auto;
-}
-
 
 .s1 {
   background-image: url("/assets/images/coop.png");
