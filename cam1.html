@@ -106,12 +106,20 @@
       <main class="main-content">
         <ul class="camera-list">
           <li><h1>Caméra 1</h1></li>
-          <li><iframe class="camera" src="http://192.168.155.133:8083" frameborder="0"></iframe></li>
-          <!-- reso cam 1600 x 1200 -->
+          <li>
+            <div class="camera">
+            <iframe class="iframe-camera" src="http://10.188.156.151:8080/video" frameborder="0" allowfullscreen></iframe>
+          </div>
+          </li>
+          <!-- reso cam 1600 x 1200 http://192.168.155.133:8083-->
           <li><span id="dateheure"></span></li>
         </ul>
 
       </main>
+      <script>
+        // redimensionner l'iframe
+
+      </script>
       <script src="js/app.js"></script>
       <script src="js/script.js"></script>
 </body>
