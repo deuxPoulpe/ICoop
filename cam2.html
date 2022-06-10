@@ -63,9 +63,6 @@
             <li>
               <a href="./cam4.html">Caméra 4</a>
             </li>
-            <li>
-              <a href="./input.html">Interrupteur</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -108,7 +105,11 @@
       <main class="main-content">
         <ul class="camera-list">
           <li><h1>Caméra 2</h1></li>
-          <li><img class="camera" src="http://10.188.156.151:8080/video"></li>
+          <li>
+            <div class="camera">
+            <iframe class="iframe-camera" src="http://192.168.74.100:8765/picture/2/frame" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </li>
           <li><span id="dateheure"></span></li>
         </ul>
 
