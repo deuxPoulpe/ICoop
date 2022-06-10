@@ -364,14 +364,23 @@ footer {
 }
 
 #dateheure{
-  background-color: rgba(34, 34, 34, 0.834);
+  /* background-color: rgba(34, 34, 34, 0.834);
   border-radius: 10px;
   margin: auto;
-  padding: 16px;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 0px 0px 10px 1px #3d3d3d4b;
+  font-size: 20px; */
+}
+.date{
+  background-color: rgba(34, 34, 34, 0.834);
+  border-radius: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
   box-shadow: 0px 0px 10px 1px #3d3d3d4b;
   font-size: 20px;
 }
-
 .camera-list{
 
   list-style-type: none;
@@ -512,4 +521,31 @@ footer {
 }
 .s5 {
   background-image: url("/assets/images/coop/IMG20220609214506.jpg");
+}
+
+
+/* Le Rapport */
+.rap{
+  text-align: center;
+  padding: 48px;
+}
+
+
+.rap h1{
+
+  color: white;
+  font-size: 35px;
+}
+.button-dl{
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 100px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px #3d3d3d4b;
+  margin-top: 64px;
+  font-size: 30px;
+
 }
